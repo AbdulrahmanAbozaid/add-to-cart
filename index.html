@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/this.css">
+    <!-- fonts -->
+</head>
+
+<body>
+    <main class="container">
+        <ul class="products" id="products">
+            <li price="900">iPhone 12 Pro Max</li>
+            <li price="800">iPhone 11 Pro Max</li>
+            <li price="600">Mi Note 11</li>
+            <li price="500">OPPO A16</li>
+        </ul>
+        <div id="addedProducts" class="added">
+            <ul id="contents"></ul>
+            <button class="clear btn" id="clearBtn" style="display: none;">clear</button>
+        </div>
+        <div id="totalPrice" class="totalPrice">
+            <button id="showPrice" class="btn" style="display: none;">Total price</button>
+            <input type="text" style="display:none;" id="price" value="" readonly>
+        </div>
+    </main>
+
+
+    <!-- js -->
+    <script src="js/this.js"></script>
+</body>
+
+</html>
