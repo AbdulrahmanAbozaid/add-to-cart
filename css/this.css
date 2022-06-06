@@ -38,12 +38,17 @@ ul {
     padding-block: 5rem;
 }
 
+.totalPrice,
+.added,
+.products {
+    width: 40%;
+}
+
 
 /* products */
 
 .products {
     background-color: #ccc;
-    width: 30%;
     padding: 5px;
     border-radius: 5px;
 }
@@ -68,7 +73,6 @@ ul {
 }
 
 .added {
-    width: 30%;
     background-color: antiquewhite;
     text-align: center;
 }
@@ -103,7 +107,6 @@ ul {
 }
 
 .totalPrice {
-    width: 30%;
     text-align: center;
     padding: 5px;
 }
@@ -114,6 +117,39 @@ ul {
 
 
 /* ======media Query========= */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+    .totalPrice,
+    .added,
+    .products {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .totalPrice,
+    .added,
+    .products {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .totalPrice,
+    .added,
+    .products {
+        width: 53%;
+    }
+}
 
 @media screen and (max-width: 576px) {
     .container {
